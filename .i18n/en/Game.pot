@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: Game v4.28.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-14\n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: GameServer.RpcHandlers
+msgid "level completed with warnings… 🎭"
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "level completed! 🎉"
+msgstr ""
+
+#: Game
+msgid "Visual Test"
+msgstr ""
+
+#: Game
+msgid "A four-level test game mirroring the prototype visual proof stages."
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "intermediate goal solved! 🎉"
+msgstr ""
+
+#: Game
+msgid "Visual proof prototype tests."
+msgstr ""
+
+#: Game.Levels.Prototype.L03_OrSwap
+msgid "Stage 3 preserves the original disjunction-heavy goal from the prototype."
+msgstr ""
+
+#: Game.Levels.Prototype.L01_ImpliesChain
+msgid "Implication Chain"
+msgstr ""
+
+#. §0: `P => (P => Q) => Q`
+#: Game.Levels.Prototype.L01_ImpliesChain
+#: Game.Levels.Prototype.L02_AndNest
+#: Game.Levels.Prototype.L03_OrSwap
+#: Game.Levels.Prototype.L04_RewriteEquality
+msgid "This is the Lean version of the prototype stage\n"
+"\n"
+"§0"
+msgstr ""
+
+#: Game.Levels.Prototype.L02_AndNest
+msgid "Stage 2 keeps the original conjunction structure, but now in Lean syntax."
+msgstr ""
+
+#: Game.Levels.Prototype.L04_RewriteEquality
+msgid "Rewrite Equality"
+msgstr ""
+
+#: Game
+msgid "This small game mirrors the four prototype stages from the visual proof editor.\n"
+"\n"
+"Each level is a Lean-syntax version of one stage goal from the prototype. Some\n"
+"of these levels are not meant to be solvable in the visual editor yet; the goal\n"
+"here is to get the Lean-side content in place first."
+msgstr ""
+
+#: Game.Levels.Prototype
+msgid "Prototype World"
+msgstr ""
+
+#: Game.Levels.Prototype.L04_RewriteEquality
+msgid "Stage 4 keeps the arithmetic rewrite goal even though full visual support comes later."
+msgstr ""
+
+#: Game.Levels.Prototype.L03_OrSwap
+msgid "Disjunction Swap"
+msgstr ""
+
+#: Game.Levels.Prototype
+msgid "These four levels mirror the stage selector in the current visual proof\n"
+"prototype. They are here to test the Lean-game side of the content first."
+msgstr ""
+
+#: Game.Levels.Prototype.L02_AndNest
+msgid "Nested Conjunction"
+msgstr ""
+
+#: Game.Metadata
+msgid "Close the current goal by providing a term of exactly the required type."
+msgstr ""
+
+#: Game
+msgid "Prototype test game for visual proof experiments."
+msgstr ""
+
+#: Game.Levels.Prototype.L01_ImpliesChain
+msgid "Stage 1 is now represented as an ordinary Lean level."
+msgstr ""
+
+#: Game.Metadata
+msgid "Rewrite the goal using an equality or equivalence."
+msgstr ""
