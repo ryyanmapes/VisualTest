@@ -26,3 +26,4 @@ Stage 4 keeps the arithmetic rewrite goal even though full visual support comes 
 "
 
 NewTactic rw
+NewTheorem Nat.mul_one Nat.mul_add Nat.add_comm Nat.mul_comm
