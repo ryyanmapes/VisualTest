@@ -1,4 +1,4 @@
-import GameServer
+import GameServer.Browser
 
 /-- Close the current goal by providing a term of exactly the required type. -/
 TacticDoc exact
