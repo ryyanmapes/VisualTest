@@ -37,5 +37,5 @@ VisualGoalInfoOnGoalWithHyp above true "B" "A ∨ B" show
 
 -- After picking the right side and introducing the implication, an `A ∨ B`
 -- hypothesis is available and the goal is `B ∨ A`. Hint to split the hyp.
-VisualGoalInfoOnGoalWithHyp above false "B ∨ A" "A ∨ B" show
+VisualHypInfoOnHyp h "A ∨ B" show
   "Click hypotheses of the form $A ∨ B$ to split into two proof streams: one where you assume $A$ and one where you assume $B$."

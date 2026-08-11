@@ -23,3 +23,6 @@ The witness is `0`, and transformation mode now also has access to
 "
 
 NewTheorem Nat.add_zero
+
+VisualGoalInfoOnGoal above false "∃ a : ℕ, a + a = a" show
+  "Double-click there-exists goals to choose a witness."
