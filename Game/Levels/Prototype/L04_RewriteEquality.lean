@@ -46,4 +46,9 @@ VisualTransformInfoOnGoal "5 + 5 * y = (y + 1) * 5" show
 -- Transformation mode (sides match): both sides identical. Point at the
 -- back button so the player knows where to leave for combining mode.
 VisualTransformBackInfoOnGoal "(y + 1) * 5 = (y + 1) * 5" show
-  "Now that both sides of the equality match, return to combining mode and click the goal to solve it with reflection."
+  "Now that both sides of the equality match, return to Combining Mode with the 'back' button, then click the goal once to apply 'rfl' and finish the level."
+
+-- Combining mode after the successful transformation: retain the second half
+-- of the instruction until the player clicks the reflexive goal.
+VisualGoalInfoOnGoal below true "(y + 1) * 5 = (y + 1) * 5" show
+  "Click once to apply 'rfl' and finish the level."

@@ -24,5 +24,7 @@ The witness is `0`, and transformation mode now also has access to
 
 NewTheorem Nat.add_zero
 
-VisualGoalInfoOnGoal above false "∃ a : ℕ, a + a = a" show
-  "Double-click there-exists goals to choose a witness."
+-- This exact-goal condition makes the under-goal instruction disappear as
+-- soon as the player specializes the existential with a witness.
+VisualGoalInfoOnGoal below false "∃ a : ℕ, a + a = a" show
+  "Click there-exists goals to specialize them with a particular constructed example"
