@@ -33,6 +33,10 @@ NewTheorem Nat.mul_one Nat.mul_add Nat.add_comm Nat.mul_comm
 VisualGoalInfoOnGoal above false "5 + 5 * y = x * 5" show
   "Double-click goals or hypotheses of the form $a = b$ to enter transformation mode."
 
+-- Transformation mode opened on `h` instead of the goal: point at back.
+VisualTransformBackInfoOnHypothesis show
+  "Click back to rewrite the goal equality instead of a hypothesis."
+
 -- Transformation mode: arrow from rule card `h` to the `x` subterm in the goal.
 VisualTransformRewriteInfoOnGoal h "x" "5 + 5 * y = x * 5" show
   "Here, you can make known substitutions. \n Try dragging in $h$ to plug in for $x$."
