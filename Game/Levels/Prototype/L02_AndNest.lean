@@ -23,14 +23,14 @@ Stage 2 keeps the original conjunction structure, but now in Lean syntax.
 
 -- Stage 1 & 2: still introducing assumptions.
 VisualGoalInfoOnGoal above false "A → B ∧ (A → B → C) → (A ∧ B) ∧ C" show
-  "Click twice to introduce your assumptions."
+  "{pc: Click | mobile: Tap} twice to introduce your assumptions."
 VisualGoalInfoOnGoal above false "B ∧ (A → B → C) → (A ∧ B) ∧ C" show
-  "Click twice to introduce your assumptions."
+  "{pc: Click | mobile: Tap} twice to introduce your assumptions."
 
 -- Stage 3: both intros done, conjunction goal not yet split.
 VisualGoalInfoOnGoal above false "(A ∧ B) ∧ C" show
-  "Click goals of the form $A ∧ B$ to split them into two proof goals: one where you must prove $A$ and one where you must prove $B$."
+  "{pc: Click | mobile: Tap} goals of the form $A ∧ B$ to split them into two proof goals: one where you must prove $A$ and one where you must prove $B$."
 
 -- Stage 4: attach the instruction to the proposition the player should click.
 VisualHypInfoOnHyp h "B ∧ (A → B → C)" show
-  "You can switch goals with the proof graph. \n Click hypotheses of the form $A ∧ B$ to split them into the hypotheses $A$ and $B$."
+  "You can switch goals with the proof graph. \n {pc: Click | mobile: Tap} hypotheses of the form $A ∧ B$ to split them into the hypotheses $A$ and $B$."

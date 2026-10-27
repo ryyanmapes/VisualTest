@@ -27,4 +27,4 @@ NewTheorem Nat.add_zero
 -- This exact-goal condition makes the under-goal instruction disappear as
 -- soon as the player specializes the existential with a witness.
 VisualGoalInfoOnGoal below false "∃ a, a + a = a" show
-  "Click there-exists goals to specialize them with a particular constructed example"
+  "{pc: Click | mobile: Tap} there-exists goals to specialize them with a particular constructed example"

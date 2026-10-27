@@ -22,7 +22,7 @@ Stage 3 preserves the original disjunction-heavy goal from the prototype.
 
 -- Initial: top-level disjunction. Player picks left (Z) or right ((A∨B) → B∨A).
 VisualGoalInfoOnGoal above false "Z ∨ ((A ∨ B) → B ∨ A)" show
-  "Click goals of the form $A ∨ B$ to choose whether to prove the left side, or the right side."
+  "{pc: Click | mobile: Tap} goals of the form $A ∨ B$ to choose whether to prove the left side, or the right side."
 
 -- Dead end: picked Z. There is no proof of Z available.
 VisualGoalInfoOnGoal above true "Z" show
@@ -38,4 +38,4 @@ VisualGoalInfoOnGoalWithHyp above true "B" "A ∨ B" show
 -- After picking the right side and introducing the implication, an `A ∨ B`
 -- hypothesis is available and the goal is `B ∨ A`. Hint to split the hyp.
 VisualHypInfoOnHyp h "A ∨ B" show
-  "Click hypotheses of the form $A ∨ B$ to split into two proof streams: one where you assume $A$ and one where you assume $B$."
+  "{pc: Click | mobile: Tap} hypotheses of the form $A ∨ B$ to split into two proof streams: one where you assume $A$ and one where you assume $B$."

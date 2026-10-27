@@ -24,9 +24,9 @@ NewTactic exact
 
 -- Stage 1 & 2: there are still implications to introduce.
 VisualGoalInfoOnGoal above false "P → (P → Q) → Q" show
-  "Click the goal to introduce the hypothesis $P$, then the hypothesis $P → Q$."
+  "{pc: Click | mobile: Tap} the goal to introduce the hypothesis $P$, then the hypothesis $P → Q$."
 VisualGoalInfoOnGoal above false "(P → Q) → Q" show
-  "Click the goal to introduce the hypothesis $P$, then the hypothesis $P → Q$."
+  "{pc: Click | mobile: Tap} the goal to introduce the hypothesis $P$, then the hypothesis $P → Q$."
 
 -- Stage 3: both intros done, but no `Q` hypothesis yet.
 VisualGoalInfoOnGoalWithoutHyp above false "Q" "Q" show

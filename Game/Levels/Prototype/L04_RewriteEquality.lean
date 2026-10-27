@@ -31,11 +31,11 @@ NewTheorem Nat.mul_one Nat.mul_add Nat.add_comm Nat.mul_comm
 -- Combining mode: equality goal has been introduced (`h : x = y + 1` is in scope).
 -- Suggest entering transformation mode by double-clicking the equality.
 VisualGoalInfoOnGoal above false "5 + 5 * y = x * 5" show
-  "Double-click goals or hypotheses of the form $a = b$ to enter transformation mode."
+  "{pc: Double-click | mobile: Double-tap} goals or hypotheses of the form $a = b$ to enter transformation mode."
 
 -- Transformation mode opened on `h` instead of the goal: point at back.
 VisualTransformBackInfoOnHypothesis show
-  "Click back to rewrite the goal equality instead of a hypothesis."
+  "{pc: Click | mobile: Tap} back to rewrite the goal equality instead of a hypothesis."
 
 -- Transformation mode: arrow from rule card `h` to the `x` subterm in the goal.
 VisualTransformRewriteInfoOnGoal h "x" "5 + 5 * y = x * 5" show
@@ -50,9 +50,9 @@ VisualTransformInfoOnGoal "5 + 5 * y = (y + 1) * 5" show
 -- Transformation mode (sides match): both sides identical. Point at the
 -- back button so the player knows where to leave for combining mode.
 VisualTransformBackInfoOnGoal "(y + 1) * 5 = (y + 1) * 5" show
-  "Now that both sides of the equality match, return to Combining Mode with the 'back' button, then click the goal once to apply 'rfl' and finish the level."
+  "Now that both sides of the equality match, return to Combining Mode with the 'back' button, then {pc: click | mobile: tap} the goal once to apply 'rfl' and finish the level."
 
 -- Combining mode after the successful transformation: retain the second half
 -- of the instruction until the player clicks the reflexive goal.
 VisualGoalInfoOnGoal below true "(y + 1) * 5 = (y + 1) * 5" show
-  "Click once to apply 'rfl' and finish the level."
+  "{pc: Click | mobile: Tap} once to apply 'rfl' and finish the level."
