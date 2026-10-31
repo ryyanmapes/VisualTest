@@ -1,6 +1,6 @@
 import Game.Levels.Prototype
 
-Title "Visual Test"
+Title "Elevator Pitch"
 Introduction
 "
 This small game mirrors the prototype stages from the visual proof editor, plus

@@ -20,7 +20,7 @@ msgid "level completed! 🎉"
 msgstr ""
 
 #: Game
-msgid "Visual Test"
+msgid "Elevator Pitch"
 msgstr ""
 
 #: GameServer.RpcHandlers
