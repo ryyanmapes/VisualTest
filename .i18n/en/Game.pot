@@ -65,7 +65,7 @@ msgstr ""
 #. §0: `∃ a : ℕ, a + a = a`
 #: Game.Levels.Prototype.L05_ExistsAddSelf
 msgid "This extra VisualTest level checks existential construction together with\n"
-"transformation mode.\n"
+"Rewrite Mode.\n"
 "\n"
 "§0"
 msgstr ""
@@ -91,7 +91,7 @@ msgstr ""
 #. §0: `0`
 #. §1: `add_zero : ∀ a, a + 0 = a`
 #: Game.Levels.Prototype.L05_ExistsAddSelf
-msgid "The witness is §0, and transformation mode now also has access to\n"
+msgid "The witness is §0, and Rewrite Mode now also has access to\n"
 "§1."
 msgstr ""
 

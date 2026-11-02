@@ -8,7 +8,7 @@ Title "Existential Witness"
 Introduction
 "
 This extra VisualTest level checks existential construction together with
-transformation mode.
+Rewrite Mode.
 
 `∃ a : ℕ, a + a = a`
 "
@@ -18,7 +18,7 @@ Statement : ∃ a : Nat, a + a = a := by
 
 Conclusion
 "
-The witness is `0`, and transformation mode now also has access to
+The witness is `0`, and Rewrite Mode now also has access to
 `add_zero : ∀ a, a + 0 = a`.
 "
 
